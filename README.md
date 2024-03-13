@@ -8,9 +8,9 @@ This notebook has four sections: i) data loading and handling, ii) exploratory d
 
 # Further research
 
-Considering major developments in  automl, now I present examples of usage of *Bank Profit* score in autogluon (https://auto.gluon.ai/stable/index.html). Since this repository was published, many colleagues seemed the replacement of F1-Score was unnecessary. Data on how unaligned F1-Score could be with a company's profit should be included.
+Considering recent major developments in automl, now I present examples of *Bank Profit* score usage in autogluon (https://auto.gluon.ai/stable/index.html). Since this repository was published, many colleagues considered the replacement of F1-Score as unnecessary. I am going to include results on how unaligned F1-Score and the actual company's profit could be under different scenarios.
 
-Also, in 2024, there is much controversy in the usage of SMOTE. Further analysis with different datasets should be done, particularly with different scores such as  *Bank Profit* score.
+Also, in 2024, there is much controversy in the usage of SMOTE. Further analysis with different datasets should be done, particularly with different scores such as *Bank Profit* score.
 
 # Conclusions
 
