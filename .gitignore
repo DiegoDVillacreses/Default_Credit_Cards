@@ -131,3 +131,6 @@ dmypy.json
 
 # Temporal files
 /tmp
+
+# autogluon files
+/notebooks/AutogluonModels
