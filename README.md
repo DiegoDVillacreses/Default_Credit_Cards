@@ -6,6 +6,12 @@ We use as a *Bank Profit* function: <!-- $Profit = \alpha* True Negative - (1-\a
 
 This notebook has four sections: i) data loading and handling, ii) exploratory data analysis, iii) modelling, iv) conclusions.
 
+# Further research
+
+Considering major developments in  automl, now I present examples of usage of *Bank Profit* score in autogluon (https://auto.gluon.ai/stable/index.html). Since this repository was published, many colleagues seemed the replacement of F1-Score was unnecessary. Data on how unaligned F1-Score could be with a company's profit should be included.
+
+Also, in 2024, there is much controversy in the usage of SMOTE. Further analysis with different datasets should be done, particularly with different scores such as  *Bank Profit* score.
+
 # Conclusions
 
 Class Imbalance is a very common issue in the daily application of statistical methods to a broad range of problems. Here we tried to SOMTE from Nitesh et al. (2002) and a custom loss function for model selection during Hyperparameter Tunning (HPT) for LightGBM and CatBoost. We only found an improvement over no HPT (both with SMOTE) on LightGBM with our custom function for alfa = 1/3 improving from 0.1853 to 0.1991, a modest increase of 7.44%. We found no improvement on the rest of our models. Considering the importance of this area of research and the vast numerous of options to assess it we believe that more studies are needed to understand it and write more user-friendly codes.
