@@ -2,7 +2,7 @@
 
 This is a notebook detailing the implementation on Python of six models to maximize a *Bank Profit* function under heavy class imbalance and compare it to other standard gain and loss functions. We used information of 30,000 Taiwan's customers produced on October 2005, detailed description of the information we used can be found [on the for Machine Learning Repository of University of California, Irvine](https://archive.ics.uci.edu/ml/datasets/default+of+credit+card+clients). 
 
-We use as a *Bank Profit* function:  $Average Profit_{per costumer} = \\frac{ \\sum_i(\\alpha* True Negative_i - (1-\\alpha)*False Negative_i)}{Total True Negative + Total False Negative)}$, where $\alpha$ is a parameter that allow us to impose a relative value for a client default against a non-default. Since we don't know $\alpha$ we train our models with $\alpha = (\frac{1}{3}, \frac{3}{7}, \frac{1}{2})$.
+I propose as a *Bank Profit* score:  $Average Profit_{per costumer} = \\frac{ \\sum_i(\\alpha* True Negative_i - (1-\\alpha)*False Negative_i)}{Total True Negative + Total False Negative)}$, where $\alpha$ is a parameter that impose a relative value for a client default against a non-default. Since $\alpha$ is unknown we train our models with $\alpha = (\frac{1}{3}, \frac{3}{7}, \frac{1}{2})$.
 
 This notebook has four sections: i) data loading and handling, ii) exploratory data analysis, iii) modelling, iv) conclusions.
 
